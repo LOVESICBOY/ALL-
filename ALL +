@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Revista [nombre de tu revista] - Información, Cultura y Entretenimiento">
+    <title>Revista [nombre de tu revista]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la revista">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#suscripcion">Suscripción</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Bienvenidos a [nombre de tu revista]</h1>
+        <p>Tu fuente de información, cultura y entretenimiento.</p>
+    </section>
+
+    <section id="nosotros">
+        <h2>¿Quiénes somos?</h2>
+        <p>[Aquí puedes hablar sobre la historia, misión y visión de tu revista.]</p>
+    </section>
+
+    <section id="articulos">
+        <h2>Artículos Destacados</h2>
+        <div class="articulos-grid">
+            <article>
+                <h3>Título del Artículo 1</h3>
+                <p>Resumen del artículo 1...</p>
+                <a href="#">Leer más</a>
+            </article>
+            <article>
+                <h3>Título del Artículo 2</h3>
+                <p>Resumen del artículo 2...</p>
+                <a href="#">Leer más</a>
+            </article>
+            <!-- Añadir más artículos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="suscripcion">
+        <h2>Suscríbete a nuestra revista</h2>
+        <p>Recibe los mejores artículos en tu correo.</p>
+        <form action="#">
+            <input type="email" placeholder="Introduce tu correo electrónico" required>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos.</p>
+        <form action="#">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Revista [nombre de tu revista]. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
